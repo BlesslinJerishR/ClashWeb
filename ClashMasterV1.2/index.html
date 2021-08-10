@@ -32,7 +32,7 @@ body{
 	margin: 0;
 }
 
-img {
+.coc {
   display: block;
   width: 100vw;
   height: 100vh;
@@ -71,6 +71,91 @@ html {
 ::-webkit-scrollbar-thumb {
     background: #FF0000;
 }
+
+
+/* Preloader */
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.preloader {
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: #333;
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 99999;
+}
+
+.loader {
+	position: relative;
+	width: 10vw;
+	height: 5vw;
+	padding: 1.5vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.loader span {
+	position: absolute;
+	height: 0.8vw;
+	width: 0.8vw;
+	border-radius: 50%;
+	background-color: #ff0;
+}
+
+.loader span:nth-child(1) {
+	animation: loading-dotsA 0.5s infinite linear;
+}
+
+.loader span:nth-child(2) {
+	animation: loading-dotsB 0.5s infinite linear;
+}
+
+@keyframes loading-dotsA {
+	0% {
+		transform: none;
+	}
+	25% {
+		transform: translateX(2vw);
+	}
+	50% {
+		transform: none;
+	}
+	75% {
+		transform: translateY(2vw);
+	}
+	100% {
+		transform: none;
+	}
+}
+
+@keyframes loading-dotsB {
+	0% {
+		transform: none;
+	}
+	25% {
+		transform: translateX(-2vw);
+	}
+	50% {
+		transform: none;
+	}
+	75% {
+		transform: translateY(-2vw);
+	}
+	100% {
+		transform: none;
+	}
+}
+
 </style>
 <link rel='stylesheet' id='woocommerce-smallscreen-css'  href='../library/plugins/woocommerce/assets/css/woocommerce-smallscreen7035.css?ver=4.3.4' type='text/css' media='only screen and (max-width: 768px)' />
 <link rel='stylesheet' id='woocommerce-general-css'  href='../library/plugins/woocommerce/assets/css/woocommerce7035.css?ver=4.3.4' type='text/css' media='all' />
@@ -121,17 +206,24 @@ var geco_aide = {"ajax_url":"https:\/\/themebeyond.com\/demo\/gecolive\/wp-admin
 		<style type="text/css" id="wp-custom-css">
 			#header{
    margin: 0 auto;
-}		</style>
+}
+</style>
 		</head>
 
 <body>
+	<div class="preloader">
+	  <span class="loader">
+	    <span></span>
+	    <span></span>
+	  </span>
+	</div>
 <div id="sticky-header" class="transparent-header">
     <div class="container-fluid s-container-full-padding">
         <div class="row">
             <div class="col-12">
                 <div class="main-menu menu-style-two">
                     <nav>
-                        <h1 class="logo"><a href="https://github.com/Mastermindx33/ClashMaster"></a><span>Clash Master v1.0</span></h1>
+                        <h1 class="logo"><a href="https://github.com/Mastermindx33/ClashMaster"></a><span>Clash Master V1.2</span></h1>
 												<div id="mobile-menu" class="navbar-wrap d-none d-lg-flex">
                             <ul id="menu-main-menu" class="menu"><li id="menu-item-295" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-295"><a href="#">Base</a>
 </li>
@@ -175,9 +267,9 @@ var geco_aide = {"ajax_url":"https:\/\/themebeyond.com\/demo\/gecolive\/wp-admin
                             <div class="row">
                                 <div class="col-xl-6 col-lg-7 col-md-11">
                                     <div class="slider-content">
-                                        <h6 data-animation="fadeInUp" data-delay=".4s">Clash Master v 1.0</h6>
+                                        <h6 data-animation="fadeInUp" data-delay=".4s">Clash Master v 1.2</h6>
                                         <h2 data-animation="fadeInUp" data-delay=".4s">Games with <span>Ideas</span> & Memories</h2>
-                                        <p data-animation="fadeInUp" data-delay=".6s">Gear up your clash of clans clashing with our automated A.I scripter .</p>
+                                        <p data-animation="fadeInUp" data-delay=".6s">Gear up your clash of clans clashing experience with our automated Artificial Intelligence powered scripter .</p>
                                         <a href="#" class="btn btn-style-two" data-animation="fadeInUp" data-delay=".8s">Script Now</a>
                                     </div>
                                 </div>
@@ -190,9 +282,9 @@ var geco_aide = {"ajax_url":"https:\/\/themebeyond.com\/demo\/gecolive\/wp-admin
                             <div class="row">
                                 <div class="col-xl-6 col-lg-7 col-md-11">
                                     <div class="slider-content">
-																			<h6 data-animation="fadeInUp" data-delay=".4s">Clash Master v 1.0</h6>
+																			<h6 data-animation="fadeInUp" data-delay=".4s">Clash Master v 1.2</h6>
 																			<h2 data-animation="fadeInUp" data-delay=".4s">Games with <span>Ideas</span> & Memories</h2>
-																			<p data-animation="fadeInUp" data-delay=".6s">Gear up your clash of clans clashing with our automated A.I scripter .</p>
+																			<p data-animation="fadeInUp" data-delay=".6s">Gear up your clash of clans clashing experience with our automated Artificial Intelligence powered scripter .</p>
 																			<a href="#" class="btn btn-style-two" data-animation="fadeInUp" data-delay=".8s">Script Now</a>
                                     </div>
                                 </div>
@@ -286,17 +378,17 @@ var geco_aide = {"ajax_url":"https:\/\/themebeyond.com\/demo\/gecolive\/wp-admin
                        </div>
                                           <div class="col-xl-2">
                            <div class="brand-item">
-                               <img src="../library/uploads/2020/08/brand_logo05.png" alt="img">
-                           </div>
-                       </div>
-                                          <div class="col-xl-2">
-                           <div class="brand-item">
                                <img src="../library/uploads/2020/08/brand_logo04.png" alt="img">
                            </div>
                        </div>
                                           <div class="col-xl-2">
                            <div class="brand-item">
                                <img src="../library/uploads/2020/08/brand_logo03.png" alt="img">
+                           </div>
+                       </div>
+                                          <div class="col-xl-2">
+                           <div class="brand-item">
+                               <img src="../library/uploads/2020/08/brand_logo02.png" alt="img">
                            </div>
                        </div>
                                           <div class="col-xl-2">
@@ -311,7 +403,7 @@ var geco_aide = {"ajax_url":"https:\/\/themebeyond.com\/demo\/gecolive\/wp-admin
                        </div>
                                           <div class="col-xl-2">
                            <div class="brand-item">
-                               <img src="../library/uploads/2020/08/brand_logo02.png" alt="img">
+                               <img src="../library/uploads/2020/08/brand_logo05.png" alt="img">
                            </div>
                        </div>
                                   </div>
@@ -343,7 +435,7 @@ var geco_aide = {"ajax_url":"https:\/\/themebeyond.com\/demo\/gecolive\/wp-admin
                             <div class="col-lg-6 col-md-8">
                                 <div class="section-title mb-50">
                                     <span>LATEST UPGRADES</span>
-                                    <h2>Powerfull <span>&amp; Scripts</span></h2>
+                                    <h2>Powerfull <span> ./ scripts</span></h2>
                                 </div>
                             </div>
                         </div>
@@ -353,7 +445,7 @@ var geco_aide = {"ajax_url":"https:\/\/themebeyond.com\/demo\/gecolive\/wp-admin
                                                                         <div class="latest-games-items mb-30">
                                         <div class="latest-games-thumb">
                                             			<div class="post-thumbnail">
-				<img src="goblin.png" style="height: 300px !important; width:350px !important;" attachment-geco_games_thumb_666_432 size-geco_games_thumb_666_432 wp-post-image" loading="lazy" />			</div>
+				<img src="goblin.png" class="coc" style="height: 300px !important; width:380px !important;" attachment-geco_games_thumb_666_432 size-geco_games_thumb_666_432 wp-post-image" loading="lazy" />			</div>
 		                                        </div>
                                         <div class="latest-games-content">
                                                                                             <div class="lg-tag">
@@ -367,11 +459,11 @@ var geco_aide = {"ajax_url":"https:\/\/themebeyond.com\/demo\/gecolive\/wp-admin
                                                                         <div class="latest-games-items mb-30">
                                         <div class="latest-games-thumb">
                                             			<div class="post-thumbnail">
-				<img src="lavaloon.jpg" style="height: 300px !important; width:350px !important;" class="attachment-geco_games_thumb_666_432 size-geco_games_thumb_666_432 wp-post-image" loading="lazy" />			</div>
+				<img src="lavaloon.jpg" class="coc" style="height: 300px !important; width:380px !important;" class="attachment-geco_games_thumb_666_432 size-geco_games_thumb_666_432 wp-post-image" loading="lazy" />			</div>
 		                                        </div>
                                         <div class="latest-games-content">
                                                                                             <div class="lg-tag">
-                                                    <a href="https://github.com/Mastermindx33/ClashMaster">PS-5</a>                                                </div>
+                                                    <a href="https://github.com/Mastermindx33/ClashMaster">updated</a>                                                </div>
                                                                                         <h4>
                                                 <a href="https://github.com/Mastermindx33/ClashMaster" rel="bookmark">
                                                     Trophy Pushing Scripts</a>
@@ -381,11 +473,11 @@ var geco_aide = {"ajax_url":"https:\/\/themebeyond.com\/demo\/gecolive\/wp-admin
                                                                         <div class="latest-games-items mb-30">
                                         <div class="latest-games-thumb">
                                             			<div class="post-thumbnail">
-				<img src="camp.jpeg" style="height: 300px !important; width:350px !important;" class="attachment-geco_games_thumb_666_432 size-geco_games_thumb_666_432 wp-post-image" loading="lazy" />			</div>
+				<img src="camp.jpeg" class="coc" style="height: 300px !important; width:380px !important;" class="attachment-geco_games_thumb_666_432 size-geco_games_thumb_666_432 wp-post-image" loading="lazy" />			</div>
 		                                        </div>
                                         <div class="latest-games-content">
                                                                                             <div class="lg-tag">
-                                                    <a href="https://github.com/Mastermindx33/ClashMaster">New</a>                                                </div>
+                                                    <a href="https://github.com/Mastermindx33/ClashMaster">updated</a>                                                </div>
                                                                                         <h4>
                                                 <a href="https://github.com/Mastermindx33/ClashMaster" rel="bookmark">
                                                     Automated Cooking</a>
@@ -395,11 +487,11 @@ var geco_aide = {"ajax_url":"https:\/\/themebeyond.com\/demo\/gecolive\/wp-admin
                                                                         <div class="latest-games-items mb-30">
                                         <div class="latest-games-thumb">
                                             			<div class="post-thumbnail">
-				<img src="resources.jpg" style="height: 300px !important; width:350px !important;" class="attachment-geco_games_thumb_666_432 size-geco_games_thumb_666_432 wp-post-image" loading="lazy" />			</div>
+				<img src="resources.jpg" class="coc" style="height: 300px !important; width:380px !important;" class="attachment-geco_games_thumb_666_432 size-geco_games_thumb_666_432 wp-post-image" loading="lazy" />			</div>
 		                                        </div>
                                         <div class="latest-games-content">
                                                                                             <div class="lg-tag">
-                                                    <a href="https://github.com/Mastermindx33/ClashMaster">New</a>                                                </div>
+                                                    <a href="https://github.com/Mastermindx33/ClashMaster">updated</a>                                                </div>
                                                                                         <h4>
                                                 <a href="https://github.com/Mastermindx33/ClashMaster" rel="bookmark">
                                                   Resources Collector</a>
@@ -409,7 +501,7 @@ var geco_aide = {"ajax_url":"https:\/\/themebeyond.com\/demo\/gecolive\/wp-admin
                                                                         <div class="latest-games-items mb-30">
                                         <div class="latest-games-thumb">
                                             			<div class="post-thumbnail">
-				<img src="builder.jpg" style="height: 300px !important; width:350px !important;" class="attachment-geco_games_thumb_666_432 size-geco_games_thumb_666_432 wp-post-image" loading="lazy" />			</div>
+				<img src="builder.jpg" class="coc" style="height: 300px !important; width:380px !important;" class="attachment-geco_games_thumb_666_432 size-geco_games_thumb_666_432 wp-post-image" loading="lazy" />			</div>
 		                                        </div>
                                         <div class="latest-games-content">
                                                                                             <div class="lg-tag">
@@ -418,12 +510,12 @@ var geco_aide = {"ajax_url":"https:\/\/themebeyond.com\/demo\/gecolive\/wp-admin
                                                 <a href="https://github.com/Mastermindx33/ClashMaster" rel="bookmark">
                                                   Auto Upgrades</a>
                                             </h4>
-                                            We will upgrades the the building with the gold and elixers we looted to free up the storages .</div>
+                                            We will upgrades the the building to free up the storages.</div>
                                     </div>
                                                                         <div class="latest-games-items mb-30">
                                         <div class="latest-games-thumb">
                                             			<div class="post-thumbnail">
-				<img src="cc.png" style="height: 300px !important; width:350px !important;" class="attachment-geco_games_thumb_666_432 size-geco_games_thumb_666_432 wp-post-image" loading="lazy" />			</div>
+				<img src="cc.png" class="coc" style="height: 300px !important; width:380px !important;" class="attachment-geco_games_thumb_666_432 size-geco_games_thumb_666_432 wp-post-image" loading="lazy" />			</div>
 		                                        </div>
                                         <div class="latest-games-content">
                                                                                             <div class="lg-tag">
@@ -449,7 +541,7 @@ var geco_aide = {"ajax_url":"https:\/\/themebeyond.com\/demo\/gecolive\/wp-admin
                     <div id="custom_html-3" class="widget_text widget footer-widget-1 footer-widget mb-50 widget_custom_html"><div class="textwidget custom-html-widget"><div class="footer-widget mb-50">
 	<div class="footer-logo mb-35">
 		<a href="index.html">
-			<h1>Clash Master v1.0</h1>
+			<h1>Clash Master V1.2</h1>
 		</a>
 	</div>
 </div>
@@ -462,7 +554,7 @@ var geco_aide = {"ajax_url":"https:\/\/themebeyond.com\/demo\/gecolive\/wp-admin
 	</div>
 	<footer id="foot" style="color: #FFFFFF; position: relative; left: 40%;">
 	    <p>
-	      <script>document.write(new Date().getFullYear());</script> &copy; Made with &#10084;&#65039; & CSS<br> &nbsp; &nbsp;<img src="mastermind.png" height="30px" width="30px" style="position: relative; left: 1%; top: -4px;">&nbsp;&nbsp;&nbsp;by <a href="https://github.com/Mastermindx33/" target="_blank" rel="nofollow noopener" style="text-decoration: none !important;"><span style="color: #FFFF00;">Mastermind</span></a>
+	      <script>document.write(new Date().getFullYear());</script> &copy; Made with &#129505; & CSS<br> &nbsp; &nbsp;<img src="mastermind.png" height="30px" width="30px" style="position: relative; left: 1%; top: -4px;">&nbsp;&nbsp;&nbsp;by <a href="https://github.com/Mastermindx33/" target="_blank" rel="nofollow noopener" style="text-decoration: none !important;"><span style="color: #E4A101;">Mastermind</span></a>
 	    </p>
 	</footer>
 
@@ -549,5 +641,11 @@ var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false
 </script>
 <script type='text/javascript' src='../library/plugins/elementor/assets/js/frontend.minaeb9.js?ver=3.1.4' id='elementor-frontend-js'></script>
 <script type='text/javascript' src='../library/plugins/elementor/assets/js/preloaded-elements-handlers.minaeb9.js?ver=3.1.4' id='preloaded-elements-handlers-js'></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+	setTimeout(function(){
+		$('.preloader').fadeToggle();
+	}, 2000);
+</script>
 	</body>
 </html>
