@@ -44,6 +44,22 @@ img.emoji {
 	.infinite-scroll .woocommerce-pagination {
 		display: none;
 	}
+
+	/* Hide Scroll bar through Magic */
+
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0;
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
+
 </style>
 <link rel='stylesheet' id='woocommerce-smallscreen-css'  href='../library/plugins/woocommerce/assets/css/woocommerce-smallscreen7035.css?ver=4.3.4' type='text/css' media='only screen and (max-width: 768px)' />
 <link rel='stylesheet' id='woocommerce-general-css'  href='../library/plugins/woocommerce/assets/css/woocommerce7035.css?ver=4.3.4' type='text/css' media='all' />
@@ -149,7 +165,7 @@ var geco_aide = {"ajax_url":"https:\/\/themebeyond.com\/demo\/gecolive\/wp-admin
                                     <div class="slider-content">
                                         <h6 data-animation="fadeInUp" data-delay=".4s">Clash Master v 1.0</h6>
                                         <h2 data-animation="fadeInUp" data-delay=".4s">Games with <span>Ideas</span> & Memories</h2>
-                                        <p data-animation="fadeInUp" data-delay=".6s">Gear up your clash of clans clashing with our auomated A.I scripter .</p>
+                                        <p data-animation="fadeInUp" data-delay=".6s">Gear up your clash of clans clashing with our automated A.I scripter .</p>
                                         <a href="#" class="btn btn-style-two" data-animation="fadeInUp" data-delay=".8s">Script Now</a>
                                     </div>
                                 </div>
@@ -432,9 +448,9 @@ var geco_aide = {"ajax_url":"https:\/\/themebeyond.com\/demo\/gecolive\/wp-admin
 <div class="footer-fire footer-fire-right"><img src="../library/themes/geco/assets/images/images/footer_fire.png" alt="Fire"></div>
 </div>
 	</div>
-	<footer id="foot" style="color: #FFFFFF; font-family: 'Courier';">
+	<footer id="foot" style="color: #FFFFFF; position: relative; left: 40%;">
 	    <p>
-	      <script>document.write(new Date().getFullYear());</script> &copy; Made with &#10084;&#65039; & CSS<br> &nbsp; &nbsp;<img src="mastermind.png" height="30px" width="30px" style="position: relative; left: 1%; top: 6px;">&nbsp; by <a href="https://github.com/Mastermindx33/" target="_blank" rel="nofollow noopener" style="text-decoration: none !important;"><span style="color: #FF0000;">Mastermind</span></a>
+	      <script>document.write(new Date().getFullYear());</script> &copy; Made with &#10084;&#65039; & CSS<br> &nbsp; &nbsp;<img src="mastermind.png" height="30px" width="30px" style="position: relative; left: 1%; top: -4px;">&nbsp;&nbsp;&nbsp;by <a href="https://github.com/Mastermindx33/" target="_blank" rel="nofollow noopener" style="text-decoration: none !important;"><span style="color: #FFFF00;">Mastermind</span></a>
 	    </p>
 	</footer>
 
