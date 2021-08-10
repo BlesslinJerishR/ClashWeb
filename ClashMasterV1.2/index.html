@@ -109,7 +109,7 @@ html {
 	height: 0.8vw;
 	width: 0.8vw;
 	border-radius: 50%;
-	background-color: #ff0;
+	background-color: #ff0038;
 }
 
 .loader span:nth-child(1) {
@@ -154,6 +154,161 @@ html {
 	100% {
 		transform: none;
 	}
+}
+
+/* SaaS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    font-size: 16px;
+}
+
+.container {
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    height: 100%;
+		color: #E4A101;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 4%;
+    padding: 12% 0;
+}
+
+.card {
+    padding: 50px;
+    backdrop-filter: blur(10px);
+    border-radius: 25px;
+		background-color: #1C1421 !important;
+		border: 2px solid #00FF00 !important;
+}
+
+.card_title {
+    font-weight: normal;
+    font-size: 36px;
+    margin-bottom: 20px;
+		color: #E4A101;
+}
+
+.pricing {
+    font-weight: normal;
+    font-size: 96px;
+		color: #E4A101;
+}
+
+.pricing .small {
+    font-size: 16px;
+		color: #E4A101;
+}
+
+hr {
+    margin-top: 70px;
+}
+
+.features {
+    margin: 40px 0;
+    list-style-position: inside;
+}
+
+.features li {
+    padding-bottom: 10px;
+}
+
+a.cta_btn {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    background: rgba(21, 23, 24, 0.7);
+    border-radius: 29px;
+    padding: 20px 0;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: background .3s ease;
+}
+
+a.cta_btn:hover {
+    background: #000;
+		color: red;
+}
+.link {
+    position: fixed;
+    background-color: #D12322;
+    padding: 23px 40px;
+    right: -99px;
+    border-radius: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    transform: rotate(-90deg);
+    font-size: 18px;
+    font-weight: 500;
+    color: #FFF;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .1s ease-in-out;
+}
+
+.link i {
+    padding-left: 7px;
+}
+
+.link:hover {
+    text-decoration: underline;
+    background-color: black;
+		color: red;
+}
+@media only screen and (max-width: 1024px) {
+    .grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 2%;
+
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .grid {
+        grid-template-columns: 1fr;
+        gap: 2%;
+        padding-bottom: 25%;
+    }
+
+    .container {
+        padding: 0 1rem;
+    }
+
+    body {
+        font-size: 14px;
+    }
+
+    .card {
+        padding: 30px;
+    }
+
+    .card_title {
+        font-size: 24px;
+        margin-bottom: 12px;
+    }
+
+    .pricing {
+        font-size: 52px;
+    }
+
+    hr {
+        margin-top: 50px;
+    }
+
+    a.cta_btn {
+        font-size: 11px;
+    }
 }
 
 </style>
@@ -223,7 +378,7 @@ var geco_aide = {"ajax_url":"https:\/\/themebeyond.com\/demo\/gecolive\/wp-admin
             <div class="col-12">
                 <div class="main-menu menu-style-two">
                     <nav>
-                        <h1 class="logo"><a href="https://github.com/Mastermindx33/ClashMaster"></a><span>Clash Master V1.2</span></h1>
+                        <h1 class="logo"><a href="https://github.com/Mastermindx33/ClashMaster"></a><span>Clash Master v1.2</span></h1>
 												<div id="mobile-menu" class="navbar-wrap d-none d-lg-flex">
                             <ul id="menu-main-menu" class="menu"><li id="menu-item-295" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-295"><a href="#">Base</a>
 </li>
@@ -268,7 +423,7 @@ var geco_aide = {"ajax_url":"https:\/\/themebeyond.com\/demo\/gecolive\/wp-admin
                                 <div class="col-xl-6 col-lg-7 col-md-11">
                                     <div class="slider-content">
                                         <h6 data-animation="fadeInUp" data-delay=".4s">Clash Master v 1.2</h6>
-                                        <h2 data-animation="fadeInUp" data-delay=".4s">Clash with <span>Ideas</span> & Memories</h2>
+                                        <h2 data-animation="fadeInUp" data-delay=".4s">Play with <span>Ideas</span> & Memories</h2>
                                         <p data-animation="fadeInUp" data-delay=".6s">Gear up your clash of clans clashing experience with our automated Artificial Intelligence powered scripter .</p>
                                         <a href="#" class="btn btn-style-two" data-animation="fadeInUp" data-delay=".8s">Script Now</a>
                                     </div>
@@ -283,7 +438,7 @@ var geco_aide = {"ajax_url":"https:\/\/themebeyond.com\/demo\/gecolive\/wp-admin
                                 <div class="col-xl-6 col-lg-7 col-md-11">
                                     <div class="slider-content">
 																			<h6 data-animation="fadeInUp" data-delay=".4s">Clash Master v 1.2</h6>
-																			<h2 data-animation="fadeInUp" data-delay=".4s">Clash with <span>Ideas</span> & Memories</h2>
+																			<h2 data-animation="fadeInUp" data-delay=".4s">Play with <span>Ideas</span> & Memories</h2>
 																			<p data-animation="fadeInUp" data-delay=".6s">Gear up your clash of clans clashing experience with our automated Artificial Intelligence powered scripter .</p>
 																			<a href="#" class="btn btn-style-two" data-animation="fadeInUp" data-delay=".8s">Script Now</a>
                                     </div>
@@ -434,7 +589,7 @@ var geco_aide = {"ajax_url":"https:\/\/themebeyond.com\/demo\/gecolive\/wp-admin
                         <div class="row">
                             <div class="col-lg-6 col-md-8">
                                 <div class="section-title mb-50">
-                                    <span>LATEST UPGRADES</span>
+                                    <span>LATEST &nbsp; UPGRADES</span>
                                     <h2>Powerfull <span> ./ scripts</span></h2>
                                 </div>
                             </div>
@@ -533,7 +688,49 @@ var geco_aide = {"ajax_url":"https:\/\/themebeyond.com\/demo\/gecolive\/wp-admin
                         </div>
                     </div>
                 </section>
-
+								<div class="container">
+								        <div class="grid">
+								            <div class="card">
+								                <h2 class="card_title">Monthly</h2>
+																<br>
+								                <p class="pricing">6$<span class="small">/month</span></p>
+								                <p>Save $9</p>
+								                <hr>
+								                <ul class="features">
+								                    <li>One account</li>
+								                    <li>Unlimited songs</li>
+								                    <li>Customized playlist</li>
+								                </ul>
+								                <a href="#" class="cta_btn">Script Now</a>
+								            </div>
+								            <div class="card">
+								                <h2 class="card_title">Three Months</h2>
+																<br>
+								                <p class="pricing">13 $<span class="small">/3x month</span></p>
+								                <p>Save $ 5</p>
+								                <hr>
+								                <ul class="features">
+								                    <li>One account</li>
+								                    <li>Unlimited songs</li>
+								                    <li>Customized playlist</li>
+								                </ul>
+								                 <a href="#" class="cta_btn">Script Now</a>
+								            </div>
+								            <div class="card">
+								                <h2 class="card_title">Yearly</h2>
+																<br>
+																<p class="pricing">50 $<span class="small">/year</span></p>
+								                <p>Save $ 22</p>
+								                <hr>
+								                <ul class="features">
+								                    <li>Six account</li>
+								                    <li>Unlimited songs</li>
+								                    <li>Customized playlist</li>
+								                </ul>
+								                 <a href="#" class="cta_btn">Script Now</a>
+								            </div>
+								        </div>
+								    </div>
 <div class="footer-widget-area">
     <div class="container">
         <div class="row justify-content-between">
@@ -543,6 +740,7 @@ var geco_aide = {"ajax_url":"https:\/\/themebeyond.com\/demo\/gecolive\/wp-admin
 		<a href="index.html">
 			<h1>Clash Master V1.2</h1>
 		</a>
+			<img src="cm.png" style="height: 34px !important; position: relative; top: -50px; left: 95% !important;">
 	</div>
 </div>
 </div>
@@ -557,7 +755,6 @@ var geco_aide = {"ajax_url":"https:\/\/themebeyond.com\/demo\/gecolive\/wp-admin
 	      <script>document.write(new Date().getFullYear());</script> &copy; Made with &#129505; & CSS<br> &nbsp; &nbsp;<img src="mastermind.png" height="30px" width="30px" style="position: relative; left: 1%; top: -4px;">&nbsp;&nbsp;&nbsp;by <a href="https://github.com/Mastermindx33/" target="_blank" rel="nofollow noopener" style="text-decoration: none !important;"><span style="color: #E4A101;">Mastermind</span></a>
 	    </p>
 	</footer>
-
 		</div>
 	</div>
 </div>		</footer>
@@ -645,7 +842,7 @@ var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false
 <script>
 	setTimeout(function(){
 		$('.preloader').fadeToggle();
-	}, 2000);
+	}, 1500);
 </script>
 	</body>
 </html>
