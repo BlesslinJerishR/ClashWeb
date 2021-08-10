@@ -1,0 +1,36 @@
+.redux-group-tab .redux-field-header:first-child {
+	margin: 30px 0 0;
+}
+.redux-field-header  {
+	position: relative;
+	margin: 45px -15px 0;
+}
+
+.redux-field-header h3 {
+	font-size: 1.2em;
+}
+.redux-field-header h4 {
+	font-size: 1.1em;
+}
+.redux-field-header h5 {
+	font-size: 1em;
+}
+.redux-field-header h6 {
+	font-size: .9em;
+}
+
+.redux-field-header h1,
+.redux-field-header h2,
+.redux-field-header h3,
+.redux-field-header h4,
+.redux-field-header h5,
+.redux-field-header h6 {
+	position: relative;
+	padding: 1em 12px;
+    border-bottom: 6px double #0099d5 !important;
+    line-height: 1.4em !important;
+}
+
+.redux-field-header p {
+	margin-top: -.5em;
+}

@@ -1,0 +1,1334 @@
+/* Extra large devices (large desktops, 1800px and up) */
+@media (max-width: 1800px) {
+	.container-full-padding,
+	.s-container-full-padding {
+		padding: 0 60px;
+	}
+	.slider-img {
+		right: 40px;
+	}
+	.slider-img.slider-img2 {
+		right: 210px;
+	}
+	.slider-active .slick-arrow {
+		opacity: 0;
+		transition: .3s linear;
+	}
+	.slider-active .slick-arrow {
+		left: 0;
+	}
+	.slider-active .slick-next {
+		right: 0;
+		left: auto;
+	}
+	.slider-active:hover .slick-arrow {
+		opacity: 1;
+	}
+	.footer-fire {
+		left: 0;
+	}
+	.footer-fire-right {
+		left: auto;
+		right: 0;
+	}
+	
+	}
+	
+	
+	/* Extra large devices (large desktops, 1800px and up) */
+	@media (max-width: 1500px) {
+	.home-four-slider .slider-content h2 {
+		font-size: 75px;
+		text-transform: capitalize;
+	}
+	.home-four-slider .slider-img img {
+    width: auto;
+}
+	.home-four-slider .slider-img img {
+		width: 600px;
+	}
+	.container-full-padding,
+	.s-container-full-padding {
+		padding: 0 30px;
+	}
+	.product-active .slick-arrow {
+		left: 0px;
+	}
+	.product-active .slick-arrow.slick-next {
+		right: 0;
+		left: auto;
+	}
+	.slider-bg {
+		padding: 180px 0;
+	}
+	.slider-style-two {
+		padding: 250px 0 150px;
+	}
+	.slider-img img {
+		width: 400px;
+	}
+	.slider-img.slider-img2 img {
+		width: 480px;
+	}
+	.slider-circle-shape img {
+		width: 650px;
+	}
+	.slider-circle-shape {
+		right: 310px;
+	}
+	.slider-img {
+		right: 20px;
+	}
+	.slider-img.slider-img2 {
+		right: 165px;
+	}
+	.footer-fire {
+		display: none;
+	}
+	.related-product-active .slick-arrow {
+		left: 0px;
+		background: #fff;
+	}
+	.related-product-active .slick-next.slick-arrow {
+		left: auto;
+		right: 0px;
+	}
+	
+	}
+	
+	
+	/* Extra large devices (large desktops, 1200px and up) */
+	@media (max-width: 1199.98px) {
+	.container-full-padding,
+	.s-container-full-padding {
+		padding: 0 15px;
+	}
+	.product-active .slick-arrow {
+		left: 0px;
+	}
+	.product-active .slick-arrow.slick-next {
+		right: 0;
+		left: auto;
+	}
+	.slider-bg {
+		padding: 180px 0;
+	}
+	.navbar-wrap ul li a {
+		font-size: 14px;
+		padding: 40px 20px;
+	}
+	.about-content {
+		padding-right: 0;
+	}
+	.tournament-schedule-item {
+		flex-wrap: wrap;
+	}
+	.match-team-logo img {
+		width: 75px;
+	}
+	.coming-match-status img {
+		width: 50px;
+	}
+	.coming-match-status {
+		margin: 0 15px;
+	}
+	.coming-match-team {
+		padding: 25px 15px 30px;
+		flex-wrap: wrap;
+	}
+	.coming-match-info {
+		padding: 35px 15px;
+	}
+	.match-info-action .btn.transparent-btn {
+		padding: 15px 17px;
+		margin-left: 10px;
+	}
+	.match-info-action .btn {
+		font-size: 12px;
+		padding: 17px 15px;
+	}
+	.coming-match-time .coming-time {
+		padding: 20px 15px;
+	}
+	.newsletter-wrap {
+		flex-direction: column;
+	}
+	.newsletter-title {
+		margin-bottom: 30px;
+	}
+	.menu-style-two {
+		padding: 28px 0px;
+		border-radius: 0;
+		background-image: none;
+	}
+	.transparent-header {
+		background-image: url(../images/bg/header_bg.jpg);
+	}
+	.menu-style-two .navbar-wrap ul li a {
+		padding: 15px 20px;
+	}
+	.slider-img.slider-img2 {
+		display: none;
+	}
+	.slider-style-two .slider-content h2 {
+		font-size: 75px;
+	}
+	.slider-style-two .slider-content p {
+		width: 90%;
+	}
+	.slider-style-two {
+		padding: 250px 0 150px;
+	}
+	.slider-circle-shape {
+		right: 170px;
+		bottom: 50px;
+	}
+	.slider-circle-shape img {
+		width: 600px;
+	}
+	.released-game-item {
+		margin: 50px 10px;
+	}
+	.released-game-nav-item {
+		margin: 0 10px;
+	}
+	.released-games-area.gray-bg {
+		padding-bottom: 120px;
+	}
+	.gamers-chart-shape {
+		display: none;
+	}
+	.just-gamers-img {
+		right: -55px;
+	}
+	.just-gamers-bg::before {
+		left: auto;
+		right: 100px;
+		margin: unset;
+	}
+	.just-gamers-bg::after {
+		left: auto;
+		right: 136px;
+		margin: unset;
+	}
+	.cta-img img {
+		width: 80%;
+	}
+	.cta-content {
+		padding: 0;
+	}
+	.cta-content .section-title h2 {
+		font-size: 45px;
+	}
+	.latest-match-box .tournament-schedule-content {
+		padding: 20px 25px 36px;
+	}
+	.latest-match-box .tournament-schedule-content p {
+		padding-right: 0;
+	}
+	.team-member-content h4 {
+		font-size: 18px;
+	}
+	.breadcrumb-bg {
+		padding-top: 225px;
+		padding-bottom: 120px;
+	}
+	.breadcrumb-content h2 {
+		font-size: 60px;
+	}
+	.upcoming-game-item {
+		padding: 25px 20px 30px;
+	}
+	.uc-game-head-title {
+		margin-right: 30px;
+	}
+	.uc-game-head-title h4 {
+		font-size: 18px;
+	}
+	.uc-game-price h5 {
+		padding: 6px 0;
+		margin-bottom: 0;
+		margin-top: 10px;
+	}
+	.uc-game-price a {
+		font-size: 16px;
+		padding: 6px 20px;
+	}
+	.breadcrumb-content.pl-80 {
+		padding-left: 0;
+	}
+	.game-overview-img {
+		margin-left: 0;
+	}
+	.game-overview-img img {
+		width: 100%;
+	}
+	.overview-history-content {
+		padding-right: 0;
+	}
+	.overview-list-thumb img {
+		width: 100px;
+	}
+	.overview-list-content {
+		padding-right: 25px;
+		margin-right: 25px;
+	}
+	.overview-list-content h4 {
+		font-size: 14px;
+	}
+	.overview-list-content span {
+		font-size: 12px;
+	}
+	.overview-list-price h4 {
+		font-size: 14px;
+	}
+	.blog-sidebar {
+		margin-left: 0;
+		padding: 25px 15px;
+	}
+	.sidebar-widget-title h4 {
+		font-size: 18px;
+	}
+	.rc-post-content h5 {
+		font-size: 14px;
+	}
+	.sidebar-trending-match ul li {
+		padding: 15px 15px;
+	}
+	.sidebar-trend-match-action span:nth-child(2) {
+		margin: 0 10px;
+	}
+	.sidebar-trend-match-thumb img {
+		width: 50px;
+	}
+	.sidebar-trend-match-date {
+		width: 115px;
+		font-size: 10px;
+		padding: 6px 14px;
+	}
+	.sidebar-tag-list ul li {
+		margin: 0 5px 5px 0px;
+	}
+	.sidebar-tag-list ul li a {
+		font-size: 12px;
+		padding: 14px 16px;
+	}
+	.table {
+		width: 790px;
+		max-width: 790px;
+		margin-top: 1rem;
+	}
+	.create-topic {
+		margin-top: 1rem;
+	}
+	.community-widget {
+		padding: 35px 20px;
+	}
+	.sidebar-new-game-content h5 {
+		font-size: 14px;
+	}
+	.contact-area .row [class*="col-"]:last-child.pl-45 {
+		padding-left: 15px;
+	}
+	.released-game-img {
+		width: inherit;
+	}
+	.new-about-padding {
+		padding-left: 15px;
+	}
+	.new-about-area .title-style-three p {
+		padding-right: 0;
+	}
+	.new-about-fact {
+		padding-top: 35px;
+		margin-top: 40px;
+	}
+	.new-about-fact ul li {
+		margin-right: 0;
+		width: 33.3333%;
+	}
+	.about-fact-item {
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+	}
+	.about-fact-icon {
+		margin-right: 0;
+		margin-bottom: 15px;
+	}
+	.new-about-content p {
+		margin-bottom: 30px;
+	}
+	.blog-style-two .blog-post-content {
+		padding: 30px 20px;
+	}
+	.related.products> .row {
+		max-width: 960px;
+	}
+	
+	
+	}
+	
+	
+	
+	/* Large devices (desktops, 992px and up) */
+	@media (max-width: 991.98px) {
+	.container-full-padding,
+	.s-container-full-padding {
+		padding: 0 30px;
+	}
+	.header-top-right {
+		justify-content: center;
+		padding: 10px 0;
+	}
+	.main-header,
+	.main-header.sticky-menu {
+		padding: 25px 0 10px;
+	}
+	.main-menu nav {
+		justify-content: space-between;
+	}
+	.admin-bar.has-header-info-bar .transparent-header,
+	.admin-bar.no-header-info-bar .transparent-header {
+		top: 45px;
+	}
+	.header-action {
+		margin-right: 80px;
+	}
+	.header-shop-cart:hover ul.minicart {
+		transform: translateY(-10px);
+	}
+	.slider-content h2 {
+		font-size: 82px;
+	}
+	.slider-content p {
+		width: 90%;
+	}
+	.about-img {
+		margin-bottom: 50px;
+	}
+	.product-active .slick-arrow {
+		left: 0px;
+	}
+	.product-active .slick-arrow.slick-next {
+		right: 0;
+		left: auto;
+	}
+	.slider-bg {
+		padding: 180px 0;
+	}
+	.navbar-wrap ul li a {
+		font-size: 12px;
+		padding: 40px 20px;
+	}
+	.about-content {
+		padding-right: 0;
+	}
+	.tournament-schedule-item {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.tournament-schedule-item .match-team-logo img {
+		width: auto;
+	}
+	.tournament-schedule-item .coming-match-status img {
+		width: auto;
+	}
+	.tournament-schedule-item .coming-match-status {
+		margin: 0 25px;
+	}
+	.tournament-menu button {
+		font-size: 13px;
+		margin-left: 20px;
+	}
+	.match-team-logo img {
+		width: 75px;
+	}
+	.coming-match-status img {
+		width: 50px;
+	}
+	.coming-match-status {
+		margin: 0 15px;
+	}
+	.coming-match-team {
+		padding: 25px 15px 30px;
+		flex-wrap: wrap;
+	}
+	.coming-match-info {
+		padding: 35px 15px;
+	}
+	.match-info-action .btn.transparent-btn {
+		padding: 15px 17px;
+		margin-left: 15px;
+	}
+	.match-info-action .btn {
+		font-size: 12px;
+		padding: 17px 15px;
+	}
+	.coming-match-time .coming-time {
+		padding: 20px 15px;
+	}
+	.features-item {
+		padding: 45px 25px;
+	}
+	.features-list-img {
+		margin-left: 25px;
+	}
+	.newsletter-wrap {
+		flex-direction: column;
+	}
+	.newsletter-title {
+		margin-bottom: 30px;
+	}
+	.newsletter-form form input {
+		width: 320px;
+	}
+	.payment-method-img img {
+		width: 100%;
+	}
+	.slider-img {
+		display: none;
+	}
+	.has-header-info-bar .transparent-header,
+	.no-header-info-bar .transparent-header {
+		top: 0px;
+	}
+	.transparent-header {
+		padding: 25px 0 10px;		
+	}
+	.menu-style-two {
+		padding: 0;
+	}
+	.slider-style-two {
+		padding: 240px 0 150px;
+		text-align: center;
+	}
+	.slider-circle-shape {
+		right: 70px;
+	}
+	.slider-style-two .slider-content p {
+		width: 80%;
+		margin: 0 auto 45px;
+	}
+	.slider-style-two .row {
+		justify-content: center;
+	}
+	.released-game-item {
+		margin: 50px 0px;
+	}
+	.just-gamers-bg::before,
+	.just-gamers-bg::after {
+		display: none;
+	}
+	.cta-img {
+		text-align: center;
+		margin-bottom: 50px;
+	}
+	.cta-content {
+		padding: 0 50px;
+		text-align: center;
+	}
+	.cta-content .title-style-three.white-title::before {
+		margin: 0 auto;
+		right: 0;
+	}
+	.cta-img img {
+		width: auto;
+	}
+	.inner-about-img {
+		margin-bottom: 45px;
+	}
+	.latest-match-box .tournament-schedule-content {
+		padding: 41px 30px;
+	}
+	.team-member-content h4 {
+		font-size: 20px;
+	}
+	#contact-map {
+		margin-bottom: 50px;
+	}
+	.inner-about-padding {
+		padding-bottom: 174px;
+	}
+	.game-overview-img img {
+		width: auto;
+	}
+	.game-overview-breadcrumb .breadcrumb-content .breadcrumb {
+		justify-content: center;
+	}
+	.game-overview-img {
+		text-align: center;
+		margin-bottom: 50px;
+	}
+	.overview-history-img {
+		margin-bottom: 40px;
+	}
+	.overview-history-img img {
+		width: auto;
+	}
+	.overview-list-thumb img {
+		width: auto;
+	}
+	.overview-list-content h4 {
+		font-size: 16px;
+	}
+	.overview-list-content span {
+		font-size: 14px;
+	}
+	.overview-list-price h4 {
+		font-size: 18px;
+	}
+	.overview-list-content {
+		padding-right: 50px;
+		margin-right: 30px;
+	}
+	.blog-sidebar {
+		padding: 25px;
+		margin: 120px 100px 0;
+	}
+	.sidebar-widget-title h4 {
+		font-size: 22px;
+	}
+	.rc-post-content h5 {
+		font-size: 16px;
+	}
+	.sidebar-trending-match ul li {
+		padding: 17px 20px;
+	}
+	.sidebar-trend-match-thumb img {
+		width: auto;
+	}
+	.sidebar-trend-match-action span:nth-child(2) {
+		margin: 0 20px;
+	}
+	.sidebar-trend-match-date {
+		width: 140px;
+		font-size: 12px;
+		padding: 6px 14px;
+	}
+	.sidebar-tag-list ul li a {
+		font-size: 14px;
+		padding: 15px 20px;
+	}
+	.community-sidebar {
+		padding-top: 120px;
+	}
+	.community-widget {
+		padding: 35px;
+	}
+	.sidebar-new-game-content h5 {
+		font-size: 16px;
+	}
+	.released-game-img {
+		width: 72%;
+	}
+	.sticky-menu .menu-style-two {
+		padding: 0;
+	}
+	.new-about-img {
+		text-align: center;
+		margin-bottom: 50px;
+	}
+	.new-about-img > img {
+		width: auto;
+	}
+	.about-fact-item {
+		flex-direction: row;
+		text-align: left;
+	}
+	.about-fact-icon {
+		margin-right: 15px;
+		margin-bottom: 0;
+	}
+	.new-about-area {
+		padding-bottom: 95px;
+	}
+	.blog-style-two .blog-post-content {
+		padding: 30px 25px;
+	}
+	.related.products> .row {
+    	max-width: 720px;
+	}
+	.shop-details-content {
+		padding-left: 0;
+	}
+	
+	
+	}
+	
+	
+	
+	/* Medium devices (tablets, 768px and up) */
+	@media (max-width: 767.98px) {
+	.container-full-padding,
+	.s-container-full-padding {
+		padding: 0 15px;
+	}
+	.header-top-right {
+		justify-content: center;
+		padding: 10px 0;
+	}
+	.main-header,
+	.main-header.sticky-menu {
+		padding: 25px 0 10px;
+	}
+	.main-menu nav {
+		justify-content: space-between;
+	}
+	.header-action {
+		display: none;
+	}
+	.slider-content h6 {
+		font-size: 16px;
+	}
+	.slider-content h6::before {
+		border-width: 5px 90px 5px 0;
+	}
+	.slider-content h6::after {
+		border-width: 5px 0 5px 90px;
+	}
+	.slider-content h2 {
+		font-size: 60px;
+	}
+	.slider-content p {
+		width: 100%;
+		font-size: 16px;
+		font-weight: 500;
+	}
+	.about-img {
+		margin-bottom: 50px;
+	}
+	.product-active .slick-arrow {
+		left: 0px;
+	}
+	.product-active .slick-arrow.slick-next {
+		right: 0;
+		left: auto;
+	}
+	.slider-bg {
+		padding: 120px 0;
+	}
+	.section-title h2 {
+		font-size: 36px;
+	}
+	.about-content {
+		padding-right: 0;
+	}
+	.tournament-schedule-wrap {
+		padding: 30px 15px 15px;
+	}
+	.tournament-schedule-content {
+		padding: 35px 15px 60px;
+	}
+	.tournament-schedule-item {
+		flex-wrap: wrap;
+		justify-content: center;
+		padding: 30px 15px;
+	}
+	.tournament-schedule-item .match-team-logo img {
+		width: 75px;
+	}
+	.tournament-schedule-item .coming-match-status img {
+		width: 50px;
+	}
+	.tournament-schedule-item .coming-match-status {
+		margin: 0 15px;
+	}
+	.tournament-top-wrap {
+		justify-content: center;
+		padding: 25px 20px;
+	}
+	.tournament-title h2 {
+		font-size: 24px;
+	}
+	.tournament-menu {
+		justify-content: center;
+	}
+	.tournament-menu button {
+		font-size: 14px;
+		margin: 0 10px;
+		margin-top: 10px;
+	}
+	.tournament-menu button::before {
+		display: none;
+	}
+	.match-team-logo img {
+		width: 75px;
+	}
+	.coming-match-status img {
+		width: 50px;
+	}
+	.coming-match-status {
+		margin: 0 25px;
+	}
+	.coming-match-team {
+		padding: 25px 15px 30px;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.coming-match-info {
+		padding: 35px 15px;
+	}
+	.match-info-action .btn.transparent-btn {
+		padding: 15px 17px;
+		margin-left: 15px;
+	}
+	.match-info-action .btn {
+		font-size: 12px;
+		padding: 17px 15px;
+	}
+	.coming-match-time .coming-time {
+		padding: 20px 15px;
+	}
+	.features-item {
+		padding: 45px 25px;
+	}
+	.features-list-img {
+		margin-left: 15px;
+	}
+	.features-list-img img {
+		width: 90px;
+	}
+	.features-list-content h6 {
+		font-size: 15px;
+	}
+	.fact-item {
+		justify-content: center;
+	}
+	.blog-post-wrap {
+		padding: 30px 15px;
+	}
+	.blog-style-one {
+		display: block;
+	}
+	.blog-style-one .blog-thumb img {
+		width: 100%;
+	}
+	.blog-style-one .blog-post-content {
+		padding: 18px 15px;
+	}
+	.testimonial-item {
+		padding: 0 15px;
+	}
+	.testimonial-content p {
+		font-size: 16px;
+	}
+	.testimonial-active.owl-carousel .owl-nav {
+		margin-left: 15px;
+	}
+	.testi-quote {
+		right: 15px;
+		bottom: 15px;
+	}
+	.testi-quote img {
+		width: 100px;
+	}
+	.newsletter-wrap {
+		flex-direction: column;
+		padding: 40px 15px;
+	}
+	.newsletter-title {
+		margin-bottom: 30px;
+	}
+	.newsletter-title h2 {
+		font-size: 24px;
+	}
+	.newsletter-form form input {
+		width: 100%;
+	}
+	.newsletter-form form {
+		margin-right: 0;
+		flex-direction: column;
+	}
+	.newsletter-form button {
+		margin-left: 0;
+		margin-top: 15px;
+	}
+	.newsletter-form-grp {
+		margin: 0 10px;
+	}
+	.copyright-text p {
+		text-align: center;
+	}
+	#scrollUp {
+		right: 10px;
+		bottom: 10px;
+	}
+	.slider-style-two .slider-content h2 {
+		font-size: 45px;
+		line-height: 1;
+	}
+	.slider-style-two {
+		padding: 205px 0 120px;
+	}
+	.slider-style-two .slider-content p {
+		width: 100%;
+	}
+	.released-game-item {
+		display: flex;
+		flex-direction: column;
+		padding: 30px 15px 30px;
+	}
+	.released-game-img {
+		width: 100%;
+		margin-right: 0;
+		margin-bottom: 20px;
+	}
+	.released-game-img img {
+		width: 100%;
+	}
+	.just-gamers-list ul li {
+		padding-right: 0;
+		text-align: center;
+		margin-bottom: 60px;
+	}
+	.just-gamers-list-icon {
+		float: unset;
+		margin: 0 auto 15px;
+	}
+	.just-gamers-bg .title-style-three {
+		text-align: center;
+	}
+	.just-gamers-bg .title-style-three::before {
+		right: 0;
+		margin: 0 auto;
+	}
+	.cta-img img {
+		width: 100%;
+	}
+	.cta-content {
+		padding: 0;
+	}
+	.cta-content .section-title h2 {
+		font-size: 36px;
+	}
+	.breadcrumb-content h2 {
+		font-size: 40px;
+		line-height: 1;
+	}
+	.inner-about-img img:nth-child(2),
+	.inner-about-img img:nth-child(3) {
+		display: none;
+	}
+	.inner-about-img img {
+		margin-left: 0;
+		width: 100%;
+	}
+	.latest-match-box {
+		display: block;
+	}
+	.latest-match-box .tournament-schedule-content {
+		padding: 25px 20px 45px;
+	}
+	.latest-match-thumb img {
+		width: 100%;
+	}
+	.inner-about-area {
+		padding-top: 110px;
+	}
+	.game-single-content {
+		padding: 40px 20px;
+	}
+	.game-single-info ul li span {
+		margin-right: 15px;
+	}
+	.game-overview-img img {
+		width: 100%;
+	}
+	.overview-history-img img {
+		width: 100%;
+	}
+	.overview-history-list ul li {
+		display: block;
+		text-align: center;
+		padding: 15px 0;
+		margin-bottom: 20px;
+	}
+	.overview-list-thumb {
+		margin-right: 0;
+		margin-bottom: 15px;
+	}
+	.overview-list-content {
+		padding-right: 0;
+		margin-right: 0;
+		margin-bottom: 5px;
+	}
+	.overview-list-content::before {
+		display: none;
+	}
+	.blog-list-post-content {
+		padding: 25px 20px;
+	}
+	.blog-list-post-tag.mb-25 {
+		margin-bottom: 15px;
+	}
+	.pagination-wrap ul li {
+		margin-top: 10px;
+	}
+	.blog-sidebar {
+		padding: 25px 15px;
+		margin: 120px 0px 0;
+	}
+	.sidebar-widget-title h4 {
+		font-size: 18px;
+	}
+	.rc-post-content h5 {
+		font-size: 14px;
+	}
+	.sidebar-trending-match ul li {
+		padding: 15px 15px;
+	}
+	.sidebar-trend-match-action span:nth-child(2) {
+		margin: 0 10px;
+	}
+	.sidebar-trend-match-thumb img {
+		width: 50px;
+	}
+	.sidebar-trend-match-date {
+		width: 115px;
+		font-size: 10px;
+		padding: 6px 14px;
+	}
+	.sidebar-tag-list ul li {
+		margin: 0 5px 5px 0px;
+	}
+	.sidebar-tag-list ul li a {
+		font-size: 12px;
+		padding: 14px 16px;
+	}
+	.blog-details-wrap .blog-list-post-content {
+		padding: 25px 20px;
+	}
+	.blog-details-wrap .blog-list-post-content h4 {
+		font-size: 20px;
+	}
+	.sidebar-widget-title.blog-details-title h4 {
+		font-size: 20px;
+	}
+	.blog-comment ul li a {
+		padding: 25px 20px;
+		display: block;
+	}
+	.comment-avatar-thumb {
+		margin-bottom: 15px;
+	}
+	.comment-avatar-info h4 span {
+		display: block;
+		margin-left: 0;
+		margin-top: 5px;
+	}
+	.blog-comment .children {
+		margin-left: 0;
+	}
+	.comment-text p {
+		padding-right: 0;
+	}
+	.community-widget {
+		padding: 35px 20px;
+	}
+	.sidebar-new-game-content h5 {
+		font-size: 14px;
+	}
+	.new-about-fact ul li {
+		margin-right: 0;
+		width: 100%;
+	}
+	.shop-action-form .custom-select {
+		width: 100%;
+	}
+	.shop-action-result span {
+		margin-bottom: 20px;
+		display: block;
+	}	
+	.blog-style-two .blog-post-content {
+		padding: 30px 20px;
+	}
+	.related.products> .row {
+    	max-width: 100%;
+	}
+	.single-product.woocommerce div.product form.cart div.quantity {
+		margin-bottom: 15px;
+		float: unset;
+		display: block;
+	}
+	.woocommerce div.product .woocommerce-tabs ul.tabs li {
+		margin-top: 10px;
+	}
+	.woocommerce-tabs.wc-tabs-wrapper {
+		padding: 35px 20px 60px;
+	}
+	.woocommerce #reviews #comments ol.commentlist li img.avatar {
+		float: unset;
+		position: unset;
+		margin-bottom: 15px;
+	}
+	.woocommerce #reviews #comments ol.commentlist li .comment-text {
+		margin-left: 0;
+	}
+	.contact-info-box {
+		flex-direction: column;
+		justify-content: center;
+		text-align: center;
+	}
+	.contact-info-icon .icon {
+		margin-right: 0;
+		margin-bottom: 15px;
+	}
+	.blog-list-post-content .blog-meta ul li {
+		margin-bottom: 7px;
+	}
+	.has-post-thumbnail .thumb-wrap .blog-list-post-tag {
+		left: 23px;
+	}
+	.blog-list-post-tag a {
+		margin-top: 5px;
+	}
+	.avatar-post ul li {
+		display: block;
+		text-align: center;
+	}
+	.avatar-post {
+		padding: 30px 20px 30px 20px;
+		margin-left: 20px;
+		margin-right: 20px;
+		margin-top: 0;
+	}
+	.post-avatar-img {
+		margin-right: 0;
+		margin-bottom: 20px;
+	}
+	.blog-comment ul li article {
+		flex-direction: column;
+	}
+	.comment-reply a {
+		padding: 0 !important;
+	}
+	.comments-area {
+		padding: 0 25px 30px;
+	}
+	.related.products {
+		margin-left: calc(50% - 49vw - 3px) !important;
+		margin-right: calc(50% - 49vw - 3px) !important;
+	}
+	.shop-details-content .product_title.entry-title {
+		font-size: 24px;
+	}
+	
+	}
+	
+	
+	/* Small devices (landscape phones, 576px and up) */
+	@media only screen and (min-width: 576px) and (max-width: 767px) {
+	.match-team-logo img {
+		width: auto;
+	}
+	.coming-match-status img {
+		width: auto;
+	}
+	.coming-match-team {
+		padding: 30px 35px 40px;
+	}
+	.tournament-schedule-item {
+		padding: 37px 20px;
+	}
+	.tournament-schedule-item .match-team-logo img {
+		width: auto;
+	}
+	.tournament-schedule-item .coming-match-status img {
+		width: auto;
+	}
+	.tournament-schedule-item .coming-match-status {
+		margin: 0 25px;
+	}
+	.tournament-schedule-content {
+		padding: 35px 35px 60px;
+	}
+	.tournament-menu button {
+		margin: 0 15px;
+		margin-top: 15px;
+	}
+	.features-item {
+		padding: 45px 35px;
+	}
+	.features-list-img img {
+		width: auto;
+	}
+	.features-list-content h6 {
+		font-size: 16px;
+	}
+	.blog-style-one .blog-post-content {
+		padding: 25px 30px;
+	}
+	.blog-post-wrap {
+		padding: 60px;
+	}
+	.tournament-schedule-wrap {
+		padding: 30px 30px 15px;
+	}
+	.testimonial-item {
+		padding: 0 45px;
+	}
+	.testimonial-active.owl-carousel .owl-nav {
+		margin-left: 45px;
+	}
+	.header-action {
+		display: block;
+	}
+	#search-modal .modal-dialog .modal-content form {
+		width: 470px;
+	}
+	.slider-style-two .slider-content h2 {
+		font-size: 70px;
+	}
+	.slider-style-two .slider-content p {
+		width: 95%;
+	}
+	.released-game-item {
+		padding: 30px 30px 30px;
+		margin: 50px 10px;
+		overflow: hidden;
+	}
+	.just-gamers-list ul li {
+		padding: 0 60px;
+	}
+	.featured-game-content {
+		left: 20px;
+		bottom: 25px;
+		right: 20px;
+	}
+	.featured-game-content h4 {
+		font-size: 20px;
+	}
+	.featured-game-overlay-content {
+		left: 50%;
+		right: auto;
+		bottom: auto;
+	}
+	.cta-img img {
+		width: auto;
+	}
+	.latest-match-box {
+		display: flex;
+	}
+	.latest-match-box .tournament-schedule-content {
+		padding: 37px 25px 45px;
+	}
+	.latest-match-thumb img {
+		width: auto;
+	}
+	.accessories-content h5 {
+		font-size: 16px;
+	}
+	.breadcrumb-content h2 {
+		font-size: 44px;
+	}
+	.upcoming-game-item {
+		padding: 30px 25px 35px;
+	}
+	.uc-game-head-title h4 {
+		font-size: 22px;
+	}
+	.uc-game-price h5 {
+		padding: 6px 25px;
+	}
+	.game-overview-img img {
+		width: auto;
+	}
+	.game-single-content {
+		padding: 40px 30px;
+	}
+	.blog-sidebar {
+		padding: 25px;
+	}
+	.sidebar-trending-match ul li {
+		padding: 17px 20px;
+	}
+	.sidebar-trend-match-thumb img {
+		width: auto;
+	}
+	.sidebar-trend-match-date {
+		width: 140px;
+		font-size: 12px;
+		padding: 6px 14px;
+	}
+	.sidebar-trend-match-action span:nth-child(2) {
+		margin: 0 20px;
+	}
+	.rc-post-content h5 {
+		font-size: 16px;
+	}
+	.sidebar-widget-title h4 {
+		font-size: 22px;
+	}
+	.blog-comment ul li article {
+		padding: 25px 25px;
+	}
+	.community-widget {
+		padding: 35px;
+	}
+	.sidebar-new-game-content h5 {
+		font-size: 16px;
+	}
+	.new-about-fact ul li {
+		width: 50%;
+	}
+	.shop-action-result span {
+		margin-bottom: 0px;
+	}
+	.blog-style-two .blog-post-content {
+		padding: 30px 30px;
+	}
+	.related.products> .row {
+    	max-width: 540px;
+	}
+	.single-product.woocommerce div.product form.cart div.quantity {
+		margin-bottom: 0;
+		float: left
+	}
+	.woocommerce div.product .woocommerce-tabs ul.tabs li {
+		margin-top: 0;
+	}
+	.avatar-post {
+		padding: 30px 25px 30px 25px;
+	}
+	.shop-details-price {
+		align-items: flex-start;
+		flex-direction: column;
+	}
+	.shop-details-price > h4 {
+		margin-bottom: 10px;
+	}
+	.shop-details-price .rating {
+		margin-bottom: 5px;
+	}
+	.shop-details-price {
+		align-items: center;
+		flex-direction: row;
+	}
+	.shop-details-price > h4 {
+		margin-bottom: 0;
+	}
+	.shop-details-price .rating {
+		margin-bottom: 0;
+	}
+	
+	}
+
+	
+	@media (max-width: 782px) { 
+		.admin-bar.has-header-info-bar .transparent-header.sticky-menu,
+		.admin-bar.no-header-info-bar .transparent-header.sticky-menu,
+		.admin-bar .sticky-menu {
+			top: 45px;
+		}
+	
+		}
+
+	@media (max-width: 600px) { 
+		.admin-bar.has-header-info-bar .transparent-header.sticky-menu,
+		.admin-bar.no-header-info-bar .transparent-header.sticky-menu,
+		.admin-bar .sticky-menu {
+			top: 0px;
+		}
+
+	}
