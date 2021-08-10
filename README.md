@@ -1,6 +1,6 @@
 # ClashMaster
 
-## Gear up your clash of clans clashing with our automated A.I scripter . 
+## Gear up your clash of clans clashing with our automated Artificial Intelligence powered scripter .
 
 - Farming Scripts
 
