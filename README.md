@@ -26,3 +26,4 @@ We will upgrades the the building with the gold and elixers we looted to free up
 
 Full automation of Clan Castle troop requests and donation .
   
+Script Now @ <a href="https://clashweb.netlify.app/"> Clash Master v1.2</a>
