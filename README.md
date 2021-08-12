@@ -1,6 +1,6 @@
 # ClashMaster
 
-###Clash of Clans Bot Scripter
+### Clash of Clans Bot Scripter
 
 - SaaS : https://clashweb.netlify.app
 - SaaS code : https://github.com/Mastermindx33/ClashWeb
@@ -48,4 +48,4 @@ Outside Home ? Remote stats , control Scripts & send cmds from mobile .
 
 Script Now @ <a href="https://clashweb.netlify.app/"> Clash Master v1.2</a>
 
-####Developer : Mastermindx33
+#### Developer : Mastermindx33
