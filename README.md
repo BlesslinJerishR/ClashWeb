@@ -12,7 +12,7 @@
 - GUI : AutoIT Design
 - Hosting : Netlify, Vimeo
 
--Demo : <a href="https://vimeo.com/586121405">ClashMasterV1.2 Demo</a> 
+### Demo : <a href="https://vimeo.com/586121405">ClashMasterV1.2 Demo</a> 
 
 ## Gear up your clash of clans clashing with our automated Artificial Intelligence powered scripter .
 
