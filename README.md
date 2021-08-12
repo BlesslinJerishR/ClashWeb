@@ -2,8 +2,8 @@
 
 ### Clash of Clans Bot Scripter
 
-- SaaS : https://clashweb.netlify.app
-- SaaS code : https://github.com/Mastermindx33/ClashWeb
+- SaaS : <a href="https://clashweb.netlify.app">ClashWeb</a>
+- SaaS Code : <a href="https://github.com/Mastermindx33/ClashWeb">ClashWeb Source Code</a>
 
 - TechStack :-
 
@@ -12,9 +12,7 @@
 - GUI : AutoIT Design
 - Hosting : Netlify, Vimeo
 
-- Dev : https://github.com/Mastermindx33
-
--Demo : 
+-Demo : <a href="https://vimeo.com/586121405">ClashMasterV1.2 Demo</a> 
 
 ## Gear up your clash of clans clashing with our automated Artificial Intelligence powered scripter .
 
@@ -48,4 +46,4 @@ Outside Home ? Remote stats , control Scripts & send cmds from mobile .
 
 Script Now @ <a href="https://clashweb.netlify.app/"> Clash Master v1.2</a>
 
-#### Developer : Mastermindx33
+#### Developer : <a href="https://github.com/Mastermindx33">Mastermindx33</a>
